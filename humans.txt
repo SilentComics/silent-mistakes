@@ -1,13 +1,13 @@
 Silent Mistakes
 
-/* https://silentcomics.com */
+/* https://silentcomics.github.io/silent-mistakes/ */
 
 /* TEAM */
 
 SILENT COMICS
 Chuyên viên đồ hoạ: Anh Họa Sĩ.
 
-Site: <https://silentcomics.com>
+Site: <https://silentcomics.github.io/silent-mistakes/>
 
 
 Twitter: @silentcomics
@@ -31,5 +31,6 @@ Content:	© SILENT COMICS
   Language:     English
   Built with:   Jekyll <https://jekyllrb.com>
                 Using a slightly modified version of Minimal Mistake <https://mmistakes.github.io/minimal-mistakes/>
-                Comments thanks to Staticman
-                UI icons thanks to Font Awesome
+                Fonts: Fénix by Fernando Díaz <https://ferfolio.carbonmade.com/projects/5510858> and Inconsolata by Raph Levien <https://levien.com/type/myfonts/inconsolata.html>
+                Comments thanks to Staticman by Eduardo Boucas <https://staticman.net>
+                UI icons thanks to Font Awesome <https://fontawesome.com>
