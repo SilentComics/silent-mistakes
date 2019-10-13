@@ -3,9 +3,9 @@ title: "About"
 excerpt: "."
 sitemap: true
 author_profile: false
-permalink: /404.html
+permalink: /about/
 header:
-  image: /images/lost.png
+  image: images/index_silent-comics_BW.png
   caption:
 ---  
 
@@ -15,7 +15,7 @@ Silent Mistakes is a Jekyll theme based on [Minimal Mistakes](https://github.com
 
 There are a few differences from Minimal Mistakes, aside from the styling.
 
-Added functionalities include a different search form, [Gumroad](https://gumroad.com/silentcomics) integration.
+Added functionalities include a different search form, [Gumroad](https://gumroad.com/) integration.
 While the theme structure borrows a lot from Minimal Mistakes, Silent Mistakes is slightly more simple, with less options.
 There is a little bit less JavaScript, and it has not be heavily updated so there are likely many more differences now than originally.
 If you like this theme you can use it without attribution (it is released with the MIT license). It should be fairly easy to add any missing functionalities from Minimal Mistakes or any other Jekyll theme.
