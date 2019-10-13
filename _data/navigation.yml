@@ -1,0 +1,6 @@
+# Main links in top navigation
+main:
+  - title: "About"
+    url: /about/
+  - title: "GitHub Repo"
+    url: https://github.com/SilentComics/silent-mistakes/

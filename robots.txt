@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow:
+
+User-Agent: Googlebot
+Allow: /
+
+Sitemap: https://yoursiteurl/sitemap.xml

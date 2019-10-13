@@ -1,0 +1,30 @@
+<!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | prepend: '/images/' | relative_url | append: favicon_version }}">
+<link rel="icon" type="image/png" href="{{ 'favicon-32x32.png' | prepend: '/images/' | relative_url | append: favicon_version }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ 'favicon-16x16.png' | prepend: '/images/' | relative_url | append: favicon_version }}" sizes="16x16">
+<link rel="manifest" href="{{ 'site.manifest' | prepend: '/images/' | relative_url | append: favicon_version }}">
+<link rel="mask-icon" href="{{ 'safari-pinned-tab.svg' | prepend: '/images/' | relative_url | append: favicon_version }}" color="#00848a">
+<link rel="shortcut icon" href="{{ 'favicon.ico' | prepend: '/images/' | relative_url | append: favicon_version }}">
+<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+<meta name="application-name" content="{{ site.title }}">
+<meta name="msapplication-config" content="{{ 'browserconfig.xml' | prepend: '/images/' | relative_url | append: favicon_version }}">
+<meta name="theme-color" content="#ffffff">
+
+<!-- Embed custom fonts from asset -->
+<link href='{{site.url}}/assets/fonts/fenix.css' rel='stylesheet' type='text/css'>
+<link href='{{site.url}}/assets/fonts/inconsolata.css' rel='stylesheet' type='text/css'>
+
+	<!-- Google Webfonts — this is the snippet to call Google Webfonts instead of the method above
+	<link href='https://fonts.googleapis.com/css?family=Fenix' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet"> -->
+
+<!--core first + styles last-->
+
+<!--Load Font Awesome 5.6.3 using the svg with js method -->
+
+	<script defer src="{{site.url}}/assets/font-awesome/fontawesome-all.js"></script>
+
+<!-- end custom head snippets -->

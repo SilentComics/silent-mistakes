@@ -1,0 +1,35 @@
+Silent Mistakes
+
+/* https://silentcomics.com */
+
+/* TEAM */
+
+SILENT COMICS
+Chuyên viên đồ hoạ: Anh Họa Sĩ.
+
+Site: <https://silentcomics.com>
+
+
+Twitter: @silentcomics
+Tumblr: https://silent-comics.tumblr.com/
+Ello: https://ello.co/silent-comics/
+Facebook: https://www.facebook.com/SilentComics/
+
+Location: Earth.
+
+/* THANKS */
+
+Name: Michael Rose, GitHub
+
+/* ABOUT */
+Silent Mistakes is the Jekyll theme formerly used for the SIlENT COMICS project log at
+https://silentcomics.com/
+Content:	© SILENT COMICS
+
+/* SITE */
+
+  Language:     English
+  Built with:   Jekyll <https://jekyllrb.com>
+                Using a slightly modified version of Minimal Mistake <https://mmistakes.github.io/minimal-mistakes/>
+                Comments thanks to Staticman
+                UI icons thanks to Font Awesome

@@ -1,0 +1,28 @@
+# Authors
+
+Silent-Comics:
+  name:           SilentComics
+  picture:        "/images/default-logo.png"
+  bio:            "Shhhhht."
+  location:
+  uri:            "https://silent-comics.com"
+  email:
+  twitter:        "SilentComics"
+  facebook:       "SilentComics"
+  instagram:      "silent_comics"
+  ello:           "SilentComics"
+  wordpress:
+  github:         "SilentComics"
+  pinterest:      "SilentComics"
+  tumblr:         "silent-comics"
+
+
+Guest Author:
+  name:           Guest
+  picture:        "/images/bio-OKpi.jpg"
+  bio:            "Your line"
+  location:
+  uri:            "http://example.com"
+  email:          name@website.com
+  twitter:        "guesttwitter"
+  google_plus:    "GuestAuthor"

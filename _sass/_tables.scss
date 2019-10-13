@@ -1,0 +1,38 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+
+table {
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: $code-font;
+  font-size: 16;
+  border-collapse: collapse;
+  border: 1px solid lighten($black, 90);
+
+  & + table {
+    margin-top: 1em;
+  }
+}
+
+thead {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid lighten($black, 90);
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: left;
+  border-right: 1px solid lighten($black, 90);
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid lighten($black, 90);
+  border-right: 1px solid lighten($black, 90);
+}
+
+tr, td, th {
+  vertical-align: middle;
+}

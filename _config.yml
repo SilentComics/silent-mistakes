@@ -1,0 +1,215 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve`. If you change this file, please restart the server process.
+
+# Site Settings
+locale                   : "en-US"
+title                    : "Silent Mistakes"
+title_separator          : "-"
+description              : "A Jekyll Theme based on Minimal Mistakes."
+#breadcrumbs              : true, false (default)
+words_per_minute         : 200
+repository               : "SilentComics/silent-mistakes"
+url                      : ""
+
+# Staticman comments (full configuration in staticman.yml)
+staticman:
+  branch: "master"
+
+# reCAPTCHA keys
+reCaptcha:
+  siteKey: "6Lf0SawUAAAAANqq3mK_YS60zmOX2qwk6Kf7QuGs"
+  secret: "f+B4HetX8bqlpAt3Ge29oJHU1GQL/yEH9RvFg37zsT+Xt9FA6UWiZt0zKsctXSOKLqxv7dbmwOZURUPe4CvQu3uCMjPZu5lm3QDkGed5LynZUa+uT5NmA+ViZHZ42N9BlOU+GtTFlVfEGn7D/T5PM0cdPErtQ8EejBsrzR5zhg8="
+
+atom_feed:
+  path                   :
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
+
+# Social Sharing
+twitter:
+  username               : SilentComics
+github:
+  username               : SilentComics
+tumblr:
+  username               :
+facebook:
+  username               : SilentComics
+  app_id                 :
+  publisher              :
+  admins                 :
+og_image                 : "/images/site-logo.png" # Open Graph/Twitter default site image
+# For specifying social profiles
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  name                   : SilentComics
+  links:
+    - "https://twitter.com/SilentComics/"
+    - "https://facebook.com/SilentComics/"
+    - "https://github.com/SilentComics/"
+    - "https://silent-comics.tumblr.com/"
+
+# Analytics and webmaster tools stuff goes here
+analytics:
+  provider               : false # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+google_authorship        : "https://plus.google.com/+Silent-comics/?rel=author"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - vendor/cache
+  - .asset-cache
+  - .bundle
+  - .git
+  - .jekyll-cache
+  - .jekyll-assets-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - CHANGELOG
+  - Gemfile
+  - Gemfile.lock
+  - gulpfile.js
+  - log
+  - node_modules
+  - package-lock.json
+  - package.json
+  - Rakefile.rb
+  - README
+  - tmp
+  - config.codekit3
+
+keep_files:
+  - .git
+  - .svn
+  - images
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Jekyll configuration
+#permalink                : /:categories/:title/
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  essays:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _essays
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: "/page:num/"
+timezone: Asia/Saigon
+
+# Plugins
+plugins:
+# - jekyll-admin
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# Jekyll Archives Settings https://github.com/jekyll/jekyll-archives
+jekyll-archives:
+  enabled: 'all'
+  layout: 'archive-taxonomy'
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
