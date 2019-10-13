@@ -2,7 +2,7 @@
 layout: single
 title: "Essay tips from Prof. Kuskin"
 description: "Essay tips from Prof. Kuskin 2013 Coursera MOOC."
-author: Hoa
+author: SilentComics
 author_profile:
 excerpt: "Kuskin Rules: Essay tips from Prof. Kuskin"
 modified: 2019-04-25
