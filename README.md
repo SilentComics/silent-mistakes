@@ -23,7 +23,7 @@ Custom fonts: Fénix by [Fernando Díaz](https://ferfolio.carbonmade.com/project
 
 Icons thanks to [Font Awesome](http://fontawesome.io)
 
-All images and content © [SILENT COMICS](http://silent-comics.com) 2019.
+Images © [SILENT COMICS](https://silent-comics.com) 2019.
 
 ### Contribute
 
