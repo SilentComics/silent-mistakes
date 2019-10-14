@@ -12,8 +12,8 @@ title_separator          : "-"
 description              : "A Jekyll Theme based on Minimal Mistakes."
 words_per_minute         : 200
 repository               : "SilentComics/silent-mistakes"
-baseurl                  : "" # the subpath of your site, e.g. /blog
-url                      : "/silent-mistakes"
+baseurl                  : "/silent-mistakes" # the subpath of your site, e.g. /blog
+url                      : "https://silentcomics.github.io/silent-mistakes"
 
 # Staticman comments (full configuration in staticman.yml)
 staticman:
