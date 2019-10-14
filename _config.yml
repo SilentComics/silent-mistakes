@@ -11,7 +11,7 @@ title                    : "Silent Mistakes"
 title_separator          : "-"
 description              : "A Jekyll Theme based on Minimal Mistakes."
 #breadcrumbs              : true, false (default)
-baseurl                  : "" # the subpath of your site, e.g. /blog
+baseurl                  : "silent-mistakes" # the subpath of your site, e.g. /blog
 words_per_minute         : 200
 repository               : "SilentComics/silent-mistakes"
 url                      : "https://silentcomics.github.io/silent-mistakes"
