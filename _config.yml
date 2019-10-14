@@ -10,10 +10,9 @@ locale                   : "en-US"
 title                    : "Silent Mistakes"
 title_separator          : "-"
 description              : "A Jekyll Theme based on Minimal Mistakes."
-#breadcrumbs              : true, false (default)
-baseurl                  : "" # the subpath of your site, e.g. /blog
 words_per_minute         : 200
 repository               : "SilentComics/silent-mistakes"
+baseurl                  : "" # the subpath of your site, e.g. /blog
 url                      : "https://silentcomics.github.io/silent-mistakes"
 
 # Staticman comments (full configuration in staticman.yml)
@@ -46,7 +45,7 @@ facebook:
   app_id                 :
   publisher              :
   admins                 :
-og_image                 : "/images/site-logo.png" # Open Graph/Twitter default site image
+og_image                 : "/images/" # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -62,7 +61,7 @@ analytics:
   provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-google_authorship        : "https://plus.google.com/+Silent-comics/?rel=author"
+google_authorship        :
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
@@ -95,7 +94,6 @@ exclude:
 
 keep_files:
   - .git
-  - .svn
   - images
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -137,7 +135,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
       related: true
   # _pages
   - scope:
@@ -155,7 +152,6 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: false
 
 # Sass/SCSS
 sass:
