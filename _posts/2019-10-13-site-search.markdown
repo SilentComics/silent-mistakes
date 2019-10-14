@@ -3,6 +3,9 @@ layout: single
 title: "site search"
 description: ""
 permalink: /site-search/
+tags:
+ - jekyll
+ - tutorial
 date: "2019-10-13 23:19:16 +0200"
 ---
 
