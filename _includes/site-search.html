@@ -1,5 +1,5 @@
 <div class="form form--search">
-  <form id="contact-form" action="https://silentcomics.github.io/silent-mistakes">
+  <form id="contact-form" action="">
     <label class="label" for="search">Search:</label>
     <input class="input" id="search" type="search" name="search" placeholder="e.g. writing" autocomplete="off" />
 
@@ -11,7 +11,7 @@
 
 <script type="text/javascript" src="{{ "/assets/js/fetch.js" | relative_url }}"></script>
 <script type="text/javascript">
-  const endpoint = '{{ "/assets/search.json" | absolute_url  }}';
+  const endpoint = '{{ "/assets/search.json" | relative_url  }}';
 
   const pages = [];
 
