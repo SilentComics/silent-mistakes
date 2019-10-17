@@ -12,7 +12,9 @@
 <script type="text/javascript" src="{{ "/assets/js/fetch.js" | relative_url }}"></script>
 <script type="text/javascript">
   const endpoint = '{{ "/assets/search.json" | relative_url }}';
+
   const pages = [];
+
   fetch(endpoint)
     .then(blob => blob.json())
     .then(data => pages.push(...data))
