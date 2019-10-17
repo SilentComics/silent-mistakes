@@ -8,6 +8,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Silent Mistakes"
+author                   : "SILENT COMICS"
 title_separator          : "-"
 description              : "A Jekyll Theme based on Minimal Mistakes."
 words_per_minute         : 200
