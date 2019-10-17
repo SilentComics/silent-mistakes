@@ -1,7 +1,7 @@
 # Authors
 
-Silent-Comics:
-  name:           SilentComics
+Silent:
+  name:           Silent
   picture:        "/images/default-logo.png"
   bio:            "Shhhhht."
   location:
@@ -19,7 +19,7 @@ Silent-Comics:
 
 Guest Author:
   name:           Guest
-  picture:        "/images/bio-OKpi.jpg"
+  picture:        "/images/default-logo.png"
   bio:            "Your line"
   location:
   uri:            "http://example.com"
