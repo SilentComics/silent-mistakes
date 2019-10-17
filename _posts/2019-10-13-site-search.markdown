@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "site search"
+title: "Site search"
 description: ""
 permalink: /site-search/
 tags:
@@ -36,7 +36,7 @@ Will output the following:
 
 [^1]: See [https://duckduckgo.com/search_box](https://duckduckgo.com/search_box)
 
-Related files:
+## Related files:
 
 - `site-search.html` in `_includes`
 - `search.json` in `assets`
