@@ -10,7 +10,12 @@ date: "2019-10-13 23:19:16 +0200"
 ---
 
 If you have hundreds or even dozen of posts, a search box added to your Jekyll site can be useful.
-You could add a search box, for instance with DuckDuckGo[^1]:
+With a few lines of code, you could add a search box, search engines provides snippets to do this easily.
+Here is a search box for DuckDuckGo[^1]:
+
+```html
+{% raw %}<iframe src="https://duckduckgo.com/search.html?width=196&site=https://silentcomics.github.io/silent-mistakes/&prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:254px;height:40px;" frameborder="0"></iframe>{% endraw %}
+```
 
 <iframe src="https://duckduckgo.com/search.html?width=196&site=https://silentcomics.github.io/silent-mistakes/&prefill=Search DuckDuckGo" style="overflow:hidden;margin:0;padding:0;width:254px;height:40px;" frameborder="0"></iframe>
 
