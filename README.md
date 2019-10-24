@@ -24,18 +24,3 @@ Custom fonts: Fénix by [Fernando Díaz](https://ferfolio.carbonmade.com/project
 Icons thanks to [Font Awesome](http://fontawesome.io)
 
 Images © [SILENT COMICS](https://silent-comics.com) 2019.
-
-### Contribute
-
-### Support
-
-If you like this theme or would like to support my work [@Silent-Comics](https://silent-comics.com), there are a few ways to [support my work ♥](https://silentcomics.com/lynchpin/). *Thank you!*
-
-[![Flattr Silent Comics](http://silentcomics.com/images/flattr-badge-large.png)](https://flattr.com/@SILENT-COMICS)
-
-<noscript><a href="https://liberapay.com/silentcomics/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-
-[![Support development][img-donate]][url-donate]
-
-[img-donate]: https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square
-[url-donate]: https://www.paypal.me/silentcomics
