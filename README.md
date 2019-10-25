@@ -15,7 +15,7 @@ The theme was previously used for [silentcomics.com](https://silentcomics.com "S
 ### Credits, License and copyrights
 Built with: [Jekyll](https://jekyllrb.com "Jekyll") and [GitHub Pages](https://pages.github.com "GitHub Pages").
 
-This blog’s uses a modified version of [minimal-mistake](https://github.com/mmistakes/minimal-mistakes), a Jekyll theme by [Michael Rose](http://mademistakes.com), released under the [MIT License (MIT)](https://choosealicense.com/licenses/mit/).
+Based on [minimal-mistake](https://github.com/mmistakes/minimal-mistakes), a Jekyll theme by [Michael Rose](http://mademistakes.com), released under the [MIT License (MIT)](https://choosealicense.com/licenses/mit/).
 
 Comments enabled thanks to [Staticman](https://github.com/eduardoboucas/staticman) by [Eduardo Boucas](https://eduardoboucas.com).
 
