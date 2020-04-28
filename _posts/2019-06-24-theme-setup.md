@@ -347,11 +347,12 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 
 ## Theme Development
 
-If you want to easily skin the themes' colors and fonts, take a look at `variables.less` in `assets/less/` and make the necessary changes to the color and font variables. To make development easier I setup a Grunt build script to compile/minify the LESS files into `main.min.css` and lint/concatenate/minify all scripts into `scripts.min.js`. [Install Node.js](http://nodejs.org/), then [install Grunt](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
+If you want to easily skin the themes' colors and fonts, take a look at `variables.scss` in `_sass` and make the necessary changes to the color and font variables. To make development easier I setup a Grunt build script to compile/minify the JS files into `main.js` and lint/concatenate/minify all scripts into `main.min.js`. [Install Node.js](http://nodejs.org/), then [install npm](http://gruntjs.com/getting-started), and then finally install the dependencies for the theme contained in `package.json`:
 
 {% highlight bash %}
 npm install
 {% endhighlight %}
+
 
 From the theme's root, use `grunt` to rebuild the CSS, concatenate JavaScript files, and optimize .jpg, .png, and .svg files in the `images/` folder. You can also use `grunt watch` in combination with `jekyll build --watch` to watch for updates to your LESS and JS files that Grunt will then automatically re-build as you write your code which will in turn auto-generate your Jekyll site when developing locally.
 
