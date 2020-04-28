@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Gumroad overlay post"
-description: "How to post products with the Gumroad ovrlay"
+description: "How to post products with the Gumroad overlay"
 permalink: /gumroad-overlay-post/
 tags:
  - jekyll
@@ -19,7 +19,7 @@ On this post we will look how to use the overlay method.
 This snippet: https://gum.co/strip
 
 ```liquid
-{% raw %}{% include gumroad-overlay.html id="stript" %}{% endraw %}
+{% raw %}{% include gumroad-overlay.html id="strip" %}{% endraw %}
 ```
 will output this:
 
